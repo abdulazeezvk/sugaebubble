@@ -1,0 +1,297 @@
+
+ 
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face {
+    font-family: 'Bonny';
+    src: url(./fonts/bonny.ttf);
+}
+
+#container{
+    padding: 0rem 4rem;
+}
+#bs2{
+    display: none;
+}
+.hlogo2 a{
+    font-family: 'Bonny';
+    color: #FF6B00;
+    text-decoration: none;
+    /* font-size: 1.5rem; */
+}
+.hlogo2{
+    font-size: 1.5rem;
+}
+
+.gnav {
+    padding: 2rem 0 4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.menu2{
+display: flex;
+gap: 30px;
+list-style: none;
+}
+.menu2 a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.icon2{
+    display: none;
+    gap: 10px;
+}
+
+/* <!-- Sort by popularity --> */
+.groupclup {
+    line-height: 3rem;
+}
+.sp{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    
+    
+    
+}
+hr{
+    width: 100%;
+}
+.ccyy {
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+.cckk{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    font-family: sans-serif;
+    
+    
+}
+.hh{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 400;
+    
+}
+
+#ccc {
+    position: absolute;
+    right: 15px;
+    top: 10px;
+}
+.hhh {
+    margin-top: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 400;
+    line-height: 3rem;
+    margin-left: 1rem;
+}
+
+.sil{
+    height: 5px;
+    background: #ddd;
+    border-radius: 5px;
+    width: 100%;
+    
+}
+.sil .pro{
+    height: 5px;
+    background: #FF6B00;
+    border-radius: 5px;
+    position: absolute;
+    left: 4%;
+    right: 90%;
+}
+.moy.hide{
+    width: 18rem !important;
+}
+.sil2{
+    height: 5px;
+    background: #ddd;
+    border-radius: 5px;
+    width: 90%;
+    margin-left: 1rem;
+    
+}
+.sil2 .pro2{
+    height: 5px;
+    background: #FF6B00;
+    border-radius: 5px;
+    position: absolute;
+    left: 0;
+    right: 60%;
+    margin-left: 1rem;
+}
+
+.money {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: sans-serif;
+}
+
+.rightbox{
+    font-family: sans-serif;
+}
+input[type="checkbox"]{
+    accent-color: #FF6B00;
+}
+#filter-by.hide{
+    width: 0 !important;
+}
+.moy{
+    width: 0; 
+    overflow: hidden;
+    position: absolute;
+    
+    top: 0;
+    right: 0;
+    background:#FFFFFF;
+    height: 48rem;
+    transition: .3s;
+     /* width: 18rem; */
+}
+
+/* <!-- collage pictures of cakes --> */
+
+.box22{
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.word2{
+    display: none;
+}
+
+.collage {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    padding: 8px;
+    gap: 24px;
+    flex-wrap: wrap;
+}
+.groupclup{
+    margin-right: 200px;
+}
+.cakethree {
+    padding: 10px;
+    height: 20rem;
+    text-align: inherit;
+    line-height: 20px;
+    font-family: sans-serif;
+}
+
+/* <!-- now to footer --> */
+.fgroup2{
+    display: flex;
+    justify-content: space-between;
+    padding:2rem 4rem;
+    background: #FFF3EA;
+    flex-wrap: wrap;
+}
+.sbc2 h2{
+    color: #FF6B00;
+    font-family: 'bonny';
+    margin-bottom: 1rem;
+}
+.sbc2 p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+.get2{
+    text-align: center;
+}
+.get2 h3{
+    font-family: sans-serif;
+    margin-bottom: 1rem;
+}
+.get2 p{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 1rem;
+}
+
+    /* Quick Links */
+.ql2{
+    font-family: sans-serif;
+    line-height: 2rem;
+    text-transform: uppercase;
+}
+.ql2 li{
+    list-style: none;
+}
+.ql2 a {
+    text-decoration: none;
+    color: black;
+}
+
+/* email only */
+.textmail2{
+    display: flex;
+    padding: 9px;
+    border: 2px solid #FF6B00;
+    border-radius: 20px;
+}
+.mail{
+    border: 0px solid;
+    height: 26px;
+    outline: none;
+    width: 320px;
+    background: #FFF3EA;
+}
+.email2{
+    width: 60px;
+    font-size: 20px;
+}
+.social-media {
+    text-align: center;
+    margin-bottom: 10px;
+    display: none;
+}
+
+
+@media  all and (max-width:900px){
+
+    #bs2{
+        display: block;
+    }
+    .groupclup{
+       display: none;
+    }
+
+
+    .word2{
+        display: flex;
+        position: absolute;
+        top: 113px;
+        gap: 150px;
+    }
+    .fa-fr {
+        display: flex;
+    }
+
+    
+
+    .menu2{
+        display: none;
+    }
+    .mail{
+        width: auto;
+    }
+    .fgroup2{
+        display: none;
+    }
+    .social-media{
+        display: block;
+    }
+}
