@@ -15,6 +15,7 @@
     display: flex;
     justify-content: space-between;
     padding: 2rem 0 0;
+    align-items: center;
 }
 
 
@@ -22,6 +23,7 @@
     color: #FF6B00;
     font-family: 'Bonny';
     font-size: 1.5rem;
+    width: 19rem;
 }
 .menu{
     display: flex !important;
@@ -279,13 +281,13 @@ img.bpic {
 /* <!-- now to Upto 20% offer --> */
 .vpic svg{
     width: 100%;
-    margin-top: -2rem;
+    margin-top: -2.5rem;
     /* filter: drop-shadow(3px 5px 15px rgb(0 0 0 / 0.4)); */
 }
 
 .print{
     background: #FF6B00;
-    height: 440px;
+    height: 500px;
 }
 .bg{
     text-align: center;  
@@ -382,7 +384,7 @@ img.bpic {
 #open{
     position: absolute;
     /* display: block !important; */
-    top: 70%;
+    top: 100%;
     line-height: 2.5;
     list-style: none;
     font-family: 'Montserrat', sans-serif;
@@ -393,10 +395,6 @@ img.bpic {
  #open a:focus{
     color: #FF6B00;
  }
-
-#bars2{
-    display: none;
-}
 #bs2{
     font-size: 22px;
     cursor: pointer;
@@ -415,13 +413,20 @@ img.bpic {
 .social-mediao {
     margin-top: 230px;
 }
+.head-lst{
+    display: none;
+}
 
  /* responsive used for mobile phones. */
 
  @media  all and (max-width:900px){
+    .bb2.hide{
+        width: 300px !important;
+    }
 
     .logo{
         margin-right: 50px;
+        width: auto;
     }
 
     .head-lst li{
@@ -431,19 +436,25 @@ img.bpic {
         /* background: #FFFFFF; */
         background: #d7b094;
         z-index: 1;
-        position: absolute;
-        width: 300px;
-        height: 760px;
+        position: fixed;
+        width: 0;
+        height: 100%;
         left: 0px;
         top: 0px;
         transition: .3s;
+        overflow: hidden;
+        box-shadow:
+                1.8px 0px 1.9px -4px rgba(0, 0, 0, 0.145),
+                6px 0px 6.5px -4px rgba(0, 0, 0, 0.215),
+                27px 0px 29px -4px rgba(0, 0, 0, 0.36)
+;
     }
  
     .head-lst{
         text-align: center;
         margin-top: 100px;
         line-height: 3rem;
-
+        display: block;
     }
     #mu{
         color: orange;
@@ -462,7 +473,7 @@ img.bpic {
         display: none; 
     } */
     #bars2.hide{
-        display: block !important;
+        width: 300px !important;
     }
     .icon{
         display: none;
